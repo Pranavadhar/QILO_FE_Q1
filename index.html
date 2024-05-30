@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Text List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PRANAVADHAR A</h1>
+            <p>Maid ID: 2904pranavadhar@gmail.com</p>
+            <p>Phone: +91 7397250247</p>
+        </header>
+        <main>
+            <div class="input-group">
+                <input type="text" id="newElementText" placeholder="Enter new element text">
+                <button onclick="addElement()">Add Element</button>
+            </div>
+            <ul id="elementList">
+                <li>SAMPLE Text 1 <button class="delete-btn" onclick="deleteElement(this)">Delete</button></li>
+                <li>SAMPLE Text 2 <button class="delete-btn" onclick="deleteElement(this)">Delete</button></li>
+                <li>SAMPLE Text 3 <button class="delete-btn" onclick="deleteElement(this)">Delete</button></li>
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
